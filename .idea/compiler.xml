@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="simple-match-engine" />
         <module name="match-engine" />
+        <module name="match-enginee" />
       </profile>
     </annotationProcessing>
   </component>
