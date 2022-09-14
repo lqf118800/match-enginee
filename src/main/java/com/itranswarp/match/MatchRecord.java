@@ -9,10 +9,10 @@ public class MatchRecord {
     public final Order insertOrder;
     public final Order makerOrder;
 
-    public MatchRecord(BigDecimal price, BigDecimal amount, Order inserOrder, Order makerOrder) {
+    public MatchRecord(BigDecimal price, BigDecimal amount, Order insertOrder, Order makerOrder) {
         this.price = price;
         this.amount = amount;
-        this.insertOrder = inserOrder;
+        this.insertOrder = insertOrder;
         this.makerOrder = makerOrder;
     }
 

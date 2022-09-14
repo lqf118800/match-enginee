@@ -6,7 +6,7 @@ public class MatchEngine {
 
     public final OrderBook buyBook = new OrderBook(Direction.BUY);
     public final OrderBook sellBook = new OrderBook(Direction.SELL);
-    public BigDecimal marketPrice = BigDecimal.ZERO; // 最新市场价
+    public BigDecimal marketPrice = BigDecimal.ZERO; // Latest market price
 
     public MatchResult processOrder(Order order) {
         switch (order.direction) {
@@ -20,10 +20,10 @@ public class MatchEngine {
     }
 
     /**
-     * @param insertOrder  输入订单
-     * @param makerBook   尝试匹配成交的OrderBook
-     * @param anotherBook 未能完全成交后挂单的OrderBook
-     * @return 成交结果
+     * @param insertOrder  insert the order
+     * @param makerBook   try to match the OrderBook
+     * @param anotherBook Pending orders that can not be fully filled OrderBook
+     * @return matching result
      */
     MatchResult processOrder(Order insertOrder, OrderBook makerBook, OrderBook anotherBook) {
         MatchResult matchResult = new MatchResult(insertOrder);
