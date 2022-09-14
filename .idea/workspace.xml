@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c06e661-ebd4-4b50-9779-ce4330f2e968" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itranswarp/match/MatchEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itranswarp/match/MatchEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itranswarp/match/MatchRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itranswarp/match/MatchRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

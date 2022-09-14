@@ -28,6 +28,28 @@ Find the file in directory: './src/test/MatchEngineTest'.
 
 Simply run this file and the matching engine will run automatically in the console.
 
+
+
+```
+
+public void testMatchEngine() {
+String inputs = """
+buy  202.34 1
+sell 207.6  2
+buy  207.8  3
+buy  205.01 5
+sell 208.02 3
+sell 207.60 5
+buy  201.11 7
+buy  206.0  3
+buy  208.33 5
+sell 206.54 3
+sell 206.55 5
+buy  206.55 3
+""";
+```
+
+You can change the insert data in directory:  './src/test/MatchEngineTest'.
 ****
 
 
